@@ -39,5 +39,21 @@ main section p{
 .madeline{
     width: 1000px;
     height: 600px;
-    margin-left: 150px;
+    margin-left: 170px;
+}
+footer{
+    width: 100%;
+    height:auto;
+    display: grid;
+    grid-template-columns: repeat(3,33.33333333%);
+    grid-template-rows: repeat(1,auto);
+    background-color: #201e2c;
+}
+footer h1{
+    color: white; text-align: center;
+}
+footer p{
+    font-size: 25px;
+    color: white;
+    text-align: center;
 }
